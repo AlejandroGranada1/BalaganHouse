@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <div className="font-[Montserrat]">
@@ -24,12 +26,14 @@ export default function Home() {
           Cada evento es una historia única, y nosotros nos encargamos de producir
           cada momento con magia y profesionalismo.
         </p>
-        <a
-          href="/services"
+        
+        {/* 🔹 Usa Link en lugar de <a> */}
+        <Link
+          to="/services"
           className="mt-8 inline-block px-8 py-3 bg-[#a020f0] hover:bg-[#c873ff] text-white font-semibold rounded-lg transition-all duration-300 transform hover:-translate-y-1"
         >
           Descubre nuestros servicios
-        </a>
+        </Link>
       </section>
 
       {/* WHY CHOOSE US */}
