@@ -63,7 +63,7 @@ export default function Servicios() {
             Eventos que realizamos
           </h2>
           <p className="text-base md:text-lg leading-relaxed font-medium">
-            Kisses, bautizos, cumpleaños, bodas y eventos corporativos.  
+            15's, bautizos, cumpleaños, bodas y eventos corporativos.  
             Nos adaptamos a cada estilo, locación y presupuesto para hacerlo inolvidable. 💜
           </p>
         </div>
